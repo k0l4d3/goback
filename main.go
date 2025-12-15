@@ -26,7 +26,7 @@ func (c Circle) Area() float64 {
 }
 
 func calculateArea(s Shape) float64 {
-	return s.Area
+	return s.Area()
 }
 
 func main() {
